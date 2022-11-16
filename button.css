@@ -23,7 +23,7 @@
     src: url('font/firasans-regular.ttf') format('ttf');
 }
 
-html{
+/* html{
     height: 100%;
     font-family: 'Fira sans';
 }
@@ -38,7 +38,7 @@ body{
 main{
     background-color: var(--licht-grijs);
     padding: 5em;
-}
+} */
 
 .buttons{
     display: flex;
@@ -49,7 +49,7 @@ main{
 
 .button-inner{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     grid-gap: 1em;
     align-items: center;
 }
