@@ -34,11 +34,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+*/
 
 main{
     background-color: var(--licht-grijs);
     padding: 5em;
-} */
+}
 
 .buttons{
     display: flex;
@@ -91,11 +92,58 @@ main{
     font-family: 'Fira sans';
 }
 
-.submit-btn{
-    background: var(--magenta);
+.main-btn{
+    background: linear-gradient(to right, var(--magenta), var(--light-magenta));
     color: white;
     padding: 0.8em 1.6em;
     border: none;
     border-radius: 0.3em;
     font-family: 'Fira sans';
 }
+
+.main-btn:hover{
+    background: linear-gradient(to right, var(--magenta) 0%, var(--light-magenta) 10%, #FFF 11%);
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'Fira sans';
+    padding: 0.8em 1.6em;
+    color: var(--blauw);
+    font-weight: 500;
+}
+
+.main-btn:active{
+    background: white;
+    color: var(--magenta);
+    padding: 0.8em 1.6em;
+    border: solid 1px var(--magenta);
+    border-radius: 0.3em;
+    font-family: 'Fira sans';
+}
+
+.main-btn:focus{
+    background: white;
+    color: var(--blauw);
+    padding: 0.8em 1.6em;
+    border: solid 2px var(--blauw);
+    border-radius: 0.3em;
+    font-family: 'Fira sans';
+}
+
+.main-btn:focus-visible{
+    background: white;
+    color: var(--blauw);
+    padding: 0.8em 1.6em;
+    border: solid 2px var(--blauw);
+    border-radius: 0.3em;
+    font-family: 'Fira sans';
+    outline: var(--blauw);
+}
+
+/* .submit-btn{
+    background: var(--magenta);
+    color: white;
+    padding: 0.8em 1.6em;
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'Fira sans';
+} */
