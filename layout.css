@@ -517,7 +517,9 @@ h3,
 h4,
 h5,
 h6 {
+
   font-family: Fira Sans Medium, Calibri, sans-serif;
+  font-family: Fira Sans, Calibri, sans-serif;
   font-weight: initial;
   color: var(--c-magenta);
 }
@@ -1344,6 +1346,7 @@ article .guidelines {
     font-size: 2em;
     max-width: 20em;
     font-family: Fira Sans Medium;
+
   }
 
   h1 .toolgankelijk {
@@ -1564,6 +1567,7 @@ article .guidelines {
     font-size: 2em;
     max-width: 20em;
     font-family: Fira Sans Medium;
+
   }
 
   .toolgankelijk {
