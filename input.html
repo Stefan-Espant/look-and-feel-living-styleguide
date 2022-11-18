@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vervoerregio Amsterdam living styleguide</title>
+  <link rel="stylesheet" href="input-style.css" />
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="assets/logo.png" alt="logo Vervoerregio Amsterdam" />
+    <div id="after-curve"></div>
+  </header>
+
+  <!-- Hieronder bevinden zich de 4 hoofdcategorieën -->
+  <aside class="cntt">
+    <a class="categorie active">
+      <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z" />
+      </svg>
+      <p>Waarneembaar</p>
+    </a>
+    <a href="./begrijpelijk.html" class="categorie">
+      <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z" />
+      </svg>
+      <p>Begrijpelijk</p>
+    </a>
+    <a href="./bedienbaar.html" class="categorie">
+      <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z" />
+      </svg>
+      <p>Bedienbaar</p>
+    </a>
+    <a href="./robuust.html" class="categorie">
+      <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z" />
+      </svg>
+      <p>Robuust</p>
+    </a>
+  </aside>
+
+  <!-- Dit is de sectie waar de content staat -->
+
+  <main class="subject">
+    <div class="toptab">
+      <div class="tab"></div>
+      <div class="curve"></div>
+      <div class="curve-bg"></div>
+      <!-- Dit zijn de twee knoppen om de toegankelijkheid van de content te verbeteren -->
+      <ul class="ui-settings">
+        <li>
+          <a href="https://stefan-espant.github.io/all-human-accessible-website/"
+            aria-label="Ga terug naar de homepagina">
+            <i class="fa-solid fa-house"></i>
+          </a>
+        </li>
+        <li>
+          <button class="fontSize" aria-label="Vergroot tekst" onclick="fontSize()">
+            <svg width="44" height="36" viewBox="0 0 33 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.1123 20L12.1043 15.828H6.44827L5.46827 20H0.708266L6.56027 0.595999H12.1323L17.9843 20H13.1123ZM7.23227 12.496H11.3203L9.27627 3.928L7.23227 12.496ZM31.1399 15.688C31.1399 16.248 31.2146 16.6587 31.3639 16.92C31.5319 17.1813 31.7932 17.3773 32.1479 17.508L31.2239 20.392C30.3092 20.3173 29.5626 20.1213 28.9839 19.804C28.4052 19.468 27.9572 18.9453 27.6399 18.236C26.6692 19.7293 25.1759 20.476 23.1599 20.476C21.6852 20.476 20.5092 20.0467 19.6319 19.188C18.7546 18.3293 18.3159 17.2093 18.3159 15.828C18.3159 14.204 18.9132 12.9627 20.1079 12.104C21.3026 11.2453 23.0292 10.816 25.2879 10.816H26.7999V10.172C26.7999 9.29467 26.6132 8.69733 26.2399 8.38C25.8666 8.044 25.2132 7.876 24.2799 7.876C23.7946 7.876 23.2066 7.95067 22.5159 8.1C21.8252 8.23067 21.1159 8.41733 20.3879 8.66L19.3799 5.748C20.3132 5.39333 21.2652 5.12267 22.2359 4.936C23.2252 4.74933 24.1399 4.656 24.9799 4.656C27.1079 4.656 28.6666 5.09467 29.6559 5.972C30.6452 6.84933 31.1399 8.16533 31.1399 9.92V15.688ZM24.4479 17.312C25.4559 17.312 26.2399 16.836 26.7999 15.884V13.252H25.7079C24.6999 13.252 23.9439 13.4293 23.4399 13.784C22.9546 14.1387 22.7119 14.6893 22.7119 15.436C22.7119 16.0333 22.8612 16.5 23.1599 16.836C23.4772 17.1533 23.9066 17.312 24.4479 17.312Z"
+                fill="" />
+            </svg>
+          </button>
+        </li>
+
+        <li>
+          <button class="contrast-trigger" id="changeContrast" aria-label="Vergroot kleur contrast">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM19.9943 32.0033C26.8608 31.0343 32.1429 25.134 32.1429 18C32.1429 10.866 26.8608 4.96574 19.9943 3.99665C18.9005 3.84229 18 4.75091 18 5.85548L18 18L18 30.1445C18 31.2491 18.9005 32.1577 19.9943 32.0033Z"
+                fill="" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <section class="folder" id="fontIncrease">
+      <div class="content">
+        <h1>&lt; input &gt; : The Input (Form Input) element
+        </h1>
+        <div class="subcat">
+          <button class="subcat-btn" data-id="article1_1" aria-label="1.1, Gesproken tekst">
+            button
+          </button>
+          <button class="subcat-btn" data-id="article1_2" aria-label="1.2, Visuele Audiobeschrijving">
+            checkbox
+          </button>
+          <button class="subcat-btn" data-id="article1_3" aria-label="1.3, Visuele aanwijzingen">
+            color
+          </button>
+          <button class="subcat-btn" data-id="article1_4" aria-label="1.4, Ingevulde velden">
+            date
+          </button>
+          <button class="subcat-btn" data-id="article1_5" aria-label="1.5, Voorgelezen inhoud">
+            datetime-local
+          </button>
+          <button class="subcat-btn" data-id="article1_6" aria-label="1.6, Uitvergroot tot 200%">
+            email
+          </button>
+          <button class="subcat-btn" data-id="article1_7" aria-label="1.7, Aangepaste tekstgrootte">
+            file
+          </button>
+          <button class="subcat-btn" data-id="article1_8" aria-label="1.1, Gesproken tekst">
+            hidden
+          </button>
+          <button class="subcat-btn" data-id="article1_9" aria-label="1.2, Visuele Audiobeschrijving">
+            image
+          </button>
+          <button class="subcat-btn" data-id="article1_10" aria-label="1.3, Visuele aanwijzingen">
+            month
+          </button>
+          <button class="subcat-btn" data-id="article1_11" aria-label="1.4, Ingevulde velden">
+            number
+          </button>
+          <button class="subcat-btn" data-id="article1_12" aria-label="1.5, Voorgelezen inhoud">
+            password
+          </button>
+          <button class="subcat-btn" data-id="article1_13" aria-label="1.6, Uitvergroot tot 200%">
+            radio
+          </button>
+          <button class="subcat-btn" data-id="article1_14" aria-label="1.7, Aangepaste tekstgrootte">
+            range
+          </button>
+          <button class="subcat-btn" data-id="article1_15" aria-label="1.1, Gesproken tekst">
+            reset
+          </button>
+          <button class="subcat-btn" data-id="article1_16" aria-label="1.2, Visuele Audiobeschrijving">
+            search
+          </button>
+          <button class="subcat-btn" data-id="article1_17" aria-label="1.3, Visuele aanwijzingen">
+            submit
+          </button>
+          <button class="subcat-btn" data-id="article1_18" aria-label="1.4, Ingevulde velden">
+            tel
+          </button>
+          <button class="subcat-btn" data-id="article1_19" aria-label="1.5, Voorgelezen inhoud">
+            text
+          </button>
+          <button class="subcat-btn" data-id="article1_20" aria-label="1.6, Uitvergroot tot 200%">
+            time
+          </button>
+          <button class="subcat-btn" data-id="article1_21" aria-label="1.7, Aangepaste tekstgrootte">
+            url
+          </button>
+          <button class="subcat-btn" data-id="article1_22" aria-label="1.7, Aangepaste tekstgrootte">
+            week
+          </button>
+        </div>
+        <div class="inpot-content-page">
+
+        <div class="input-type-intro">
+
+          <h2>
+            Wat is een input
+          </h2>
+          <p>
+            Het &lt; input &gt; HTML-element wordt gebruikt om interactieve besturingselementen voor webgebaseerde
+            formulieren
+            te maken om gegevens van de gebruiker te accepteren; er is een grote verscheidenheid aan soorten
+            invoergegevens en besturingswidgets beschikbaar, afhankelijk van het apparaat en de user-agent. Het
+            &lt; input &gt;-element is een van de krachtigste en meest complexe in HTML vanwege het enorme aantal
+            combinaties
+            van invoertypes en attributen.
+          </p>
+
+          <h2>
+            probeer het uit
+          </h2>
+          <iframe class="interactive is-tabbed-shorter-height" height="353px" width="100%"
+            src="https://interactive-examples.mdn.mozilla.net/pages/tabbed/input-text.html"
+            title="MDN Web Docs Interactive Example" loading="lazy" data-readystate="complete"></iframe>
+          <span class="extra-tip">
+            Tip: verander of voeg een input type toe en zie hoe ze geplaatst worden.
+
+            Voeg de onderstaande regel code maar toe.
+            <br>
+            <span class="test-code">
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">br</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              <br>
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--
+              --><span style="color:rgb(1, 142, 34)">="color"</span>
+              <span style="color:red"> id</span><!--
+              --><span style="color:rgb(1, 142, 34)">="name"</span>
+              <span style="color:red"> name</span><!--
+              --><span style="color:rgb(1, 142, 34)">="name"</span>
+              <span style="color:red"> required</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+          </span>
+
+          </div>
+          <div class="input-type-content">
+
+          <h2>
+            &lt;input type="button"&gt;
+          </h2>
+          <p>
+            Een drukknop zonder standaardgedrag die de waarde van het value kenmerk weergeeft, standaard leeg.
+          </p>
+
+          <span class="display-code">
+            <h3>
+              Example
+            </h3>
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">input</span>
+            <span style="color:red">type</span><!--
+            --><span style="color:rgb(1, 142, 34)">="button"</span>
+            <span style="color:red">onclick </span><!--
+            --><span style="color:rgb(1, 142, 34)">="alert('Hello World!')" </span>
+            <span style="color:red">value</span><!--
+            --><span style="color:rgb(1, 142, 34)">="Click Me!"</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>
+          </span>
+
+          <span class="prefiew-input">
+            Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+          </span>
+          <br>
+          <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+        </div>
+          <div class="input-type-content">
+
+            <h2>
+            &lt;input type="checkbox"&gt;
+          </h2>
+          <p>
+            Met selectievakjes kan een gebruiker NUL of MEER opties selecteren/deselecteren uit een beperkt aantal keuzes.
+          </p>
+
+          <span class="display-code">
+            <h3>
+              Example
+            </h3>
+
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">form</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            <br>
+
+            <span style="margin-left: 1rem">
+
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">input</span>
+            <span style="color:red">type</span><!--
+            --><span style="color:rgb(1, 142, 34)">="checkbox"</span>
+            <span style="color:red">id </span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle1"</span>
+            <span style="color:red">name</span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle1"</span>
+            <span style="color:red">value</span><!--
+            --><span style="color:rgb(1, 142, 34)">="Car"</span><!--
+           --><span style="color:rgb(67, 67, 67)">&gt;</span>
+           <br>
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">label</span>
+            <span style="color:red">for</span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle1"</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            <span style="color:rgb(67, 67, 67)">ik heb een fiets</span>  
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">label</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">br</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+
+             <br>
+
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">input</span>
+            <span style="color:red">type</span><!--
+            --><span style="color:rgb(1, 142, 34)">="checkbox"</span>
+            <span style="color:red">id </span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle2"</span>
+            <span style="color:red">name</span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle2"</span>
+            <span style="color:red">value</span><!--
+            --><span style="color:rgb(1, 142, 34)">="Car"</span><!--
+           --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+           <br>
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+             --><span style="color:mediumblue">label</span>
+            <span style="color:red">for</span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle2"</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            <span style="color:rgb(67, 67, 67)">ik heb een auto</span>    
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">label</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">br</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            
+            <br>
+            
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--
+              --><span style="color:rgb(1, 142, 34)">="checkbox"</span>
+              <span style="color:red">id </span><!--
+              --><span style="color:rgb(1, 142, 34)">="vehicle3"</span>
+              <span style="color:red">name</span><!--
+              --><span style="color:rgb(1, 142, 34)">="vehicle3"</span>
+              <span style="color:red">value</span><!--
+              --><span style="color:rgb(1, 142, 34)">="Car"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+             
+             <br>
+
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+             --><span style="color:mediumblue">label</span>
+            <span style="color:red">for</span><!--
+            --><span style="color:rgb(1, 142, 34)">="vehicle3"</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>
+            <span style="color:rgb(67, 67, 67)">ik heb een boot</span>    
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">label</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">br</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+            </span>
+
+            <br>
+
+            <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">form</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+
+          </span>
+
+            
+
+          <span class="prefiew-input">
+            Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+          </span>
+          <br>
+          <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Car">
+            <label for="vehicle1"> ik heb een fiets <label> <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> ik heb een auto <label> <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Car">
+            <label for="vehicle3"> ik heb een boot <label> <br>
+          <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="color"&gt;
+            </h2>
+            <p>
+              De &lt;input type="color"&gt; wordt gebruikt voor invoervelden die een kleur moeten bevatten.
+              <br><br>
+              Afhankelijk van de browserondersteuning kan er een kleurenkiezer verschijnen in het invoerveld.
+            </p>  
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="favcolor"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Select your favorite color:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="color"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="favcolor" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="favcolor"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            <form>
+              <label for ="favcolor"> Select your favorite color: <label>
+              <input type ="color" id ="favcolor" name ="favcolor">
+            <form>
+  
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="date"&gt;
+            </h2>
+            <p>
+              De &lt;input type="date"&gt; wordt gebruikt voor invoervelden die een datum (jaar, maand en dag, zonder tijd) moeten bevatten.
+              <br><br>
+              Afhankelijk van de browserondersteuning kan er een datumkiezer in het invoerveld verschijnen.
+            </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="birthday"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Birthday:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="date"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="birthday" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="birthday"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+
+            <span style="margin: 1.5rem 0rem">
+              You can also use the min and max attributes to add restrictions to dates:
+            </span>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+                <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datemax"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Enter a date before 01-01-1979:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="date"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datemin" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datemin"</span>
+              <span style="color:red">min</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="1979-12-31"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datemax"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Enter a date before 31-12-2023:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+
+             <br>
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="date"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datemax" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datemax"</span>
+              <span style="color:red">max</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="2023-12-31"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              </span>
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+
+            <br>
+            
+            <form>
+              <label for ="birthday"> Birthday: <label>
+              <input type ="date" id ="birthday" name ="birthday">
+            <form>
+
+              <br>
+              <br>
+
+            <form>
+              <label for="datemax"> Enter a date before 01-01-1979: <label>
+              <input type="date" id="datemin" name="datemin" min="1979-12-31">
+
+              <br>
+              <br>
+              
+              <label for="datemax"> Enter a date before 31-12-2023: <label>
+              <input type="date" id="datemax" name="datemax" max="2023-12-31">
+            <form>
+  
+          </div>
+
+
+
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="datetime-local"&gt;
+            </h2>
+            <p>
+              Het &lt;input type="datetime-local"&gt; specificeert een invoerveld voor datum en tijd, zonder tijdzone.
+              <br><br>
+              Afhankelijk van browserondersteuning kan er een datumkiezer verschijnen in het invoerveld.
+            </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="birthdaytime"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Birthday (date and time):</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="datetime-local"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="birthdaytime" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="birthdaytime"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <label for="birthdaytime"> Birthday (date and time): <label>
+              <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+              <form>
+
+          </div>
+
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="email"&gt;
+            </h2>
+            <p>
+              De &lt;input type="email"&gt; wordt gebruikt voor invoervelden die een e-mailadres moeten bevatten.
+              <br><br>
+              Afhankelijk van de browserondersteuning kan het e-mailadres automatisch worden gevalideerd wanneer het wordt verzonden.
+              <br><br>
+              Sommige smartphones herkennen het e-mailtype en voegen ".com" aan het toetsenbord toe om overeen te komen met de e-mailinvoer.
+             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="email"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Enter your email:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="email"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="email" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="email"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <label for="email"> Enter your email: <label>
+              <input type="email" id="email" name="email">
+            <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="file"&gt;
+            </h2>
+            <p>
+              De &lt;input type="file"&gt; definieert een veld voor het selecteren van bestanden en een knop "Bladeren" voor het uploaden van bestanden.
+             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="myfile"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Select a file:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="file"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="myfile" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="myfile"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <label for="myfile"> Select a file: <label>
+              <input type="file" id="myfile" name="myfile">
+            <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="hidden"&gt;
+            </h2>
+            <p>
+              De <input type="hidden"> definieert een verborgen invoerveld (niet zichtbaar voor een gebruiker).
+              <br><br>
+              Met een verborgen veld kunnen webontwikkelaars gegevens opnemen die niet door gebruikers kunnen worden gezien of gewijzigd wanneer een formulier wordt ingediend.
+              <br><br>
+              Een verborgen veld slaat vaak op welk databaserecord moet worden bijgewerkt wanneer het formulier wordt ingediend.
+              <br><br>
+              Opmerking: hoewel de waarde niet aan de gebruiker wordt weergegeven in de inhoud van de pagina, is deze zichtbaar (en kan deze worden bewerkt) met behulp van de ontwikkelaarstools van elke browser of de functie "Bron weergeven". Gebruik geen verborgen invoer als een vorm van beveiliging!
+             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="fname"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">First name:</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="text"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="fname" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="fname"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="hidden"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="custId" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="custId"</span>
+              <span style="color:red">value</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="3487"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="submit"</span>
+              <span style="color:red">value </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="submit" </span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <label for="fname"> First name: <label>
+              <input type="text" id="fname" name="fname">
+              <input type="hidden" id="custId" name="custId" value="3487">
+              <input type="submit" value="Submit">
+            <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="hidden"&gt;
+            </h2>
+            <p>
+              De <input type="hidden"> definieert een verborgen invoerveld (niet zichtbaar voor een gebruiker).
+              <br><br>
+              Met een verborgen veld kunnen webontwikkelaars gegevens opnemen die niet door gebruikers kunnen worden gezien of gewijzigd wanneer een formulier wordt ingediend.
+              <br><br>
+              Een verborgen veld slaat vaak op welk databaserecord moet worden bijgewerkt wanneer het formulier wordt ingediend.
+              <br><br>
+              Opmerking: hoewel de waarde niet aan de gebruiker wordt weergegeven in de inhoud van de pagina, is deze zichtbaar (en kan deze worden bewerkt) met behulp van de ontwikkelaarstools van elke browser of de functie "Bron weergeven". Gebruik geen verborgen invoer als een vorm van beveiliging!
+             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="image"</span>
+              <span style="color:red">src </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="img_submit.gif"</span>
+              <span style="color:red">alt</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="Submit"</span>
+              <span style="color:red">width</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="48"</span>
+              <span style="color:red">height</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="48"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser: 
+              <br>
+              (Verander de src naar je eigen afbelding)
+            </span>
+            <br>
+            
+            <form>
+              <input type="image" src="assets/img_submit.gif" alt="Submit" width="48" height="48">
+            <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="bdaymonth"&gt;
+            </h2>
+            <p>
+              Met &lt;input type="month"&gt; kan de gebruiker een maand en een jaar selecteren.
+              <br><br>
+              Afhankelijk van browserondersteuning kan er een datumkiezer verschijnen in het invoerveld.
+             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="bdaymonth"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Birthday (month and year):</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="month"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="bdaymonth" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="bdaymonth"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <label for="bdaymonth"> Birthday (month and year): <label>
+              <input type="month" id="bdaymonth" name="bdaymonth">
+            <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="number"&gt;
+            </h2>
+            <p>
+              Het &lt;input type="number"&gt; definieert een numeriek invoerveld.
+              <br><br>
+              U kunt ook beperkingen instellen voor welke nummers worden geaccepteerd.
+              <br><br>
+              In het volgende voorbeeld wordt een numeriek invoerveld weergegeven, waarin u een waarde van 1 tot 5 kunt invoeren:
+             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="quantity"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">Quantity (between 1 and 5):</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="number"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="quantity" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="quantity"</span>
+              <span style="color:red">min</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="1"</span>
+              <span style="color:red">max</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="5"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <label for="quantity"> Quantity (between 1 and 5): <label>
+              <input type="number" id="quantity" name="quantity" min="1" max="5">
+            <form>
+
+          </div>
+
+          <div class="input-type-content">
+
+            <h2>
+              &lt;input type="password"&gt;
+            </h2>
+            <p>
+              &lt;input type="radio"&gt; definieert een keuzerondje.
+              <br><br>
+              Met keuzerondjes kan een gebruiker SLECHTS EEN van een beperkt aantal keuzes selecteren:             </p>
+
+            <span class="display-code">
+              <h3>
+                Example
+              </h3>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+              <span style="margin-left: 1rem">
+
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">input</span>
+              <span style="color:red">type</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="radio"</span>
+              <span style="color:red">id </span><!--  
+              --><span style="color:rgb(1, 142, 34)">="html" </span>
+              <span style="color:red">name</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="fav_language"</span>
+              <span style="color:red">value</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="HTML"</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="html"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">HTML</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">input</span>
+            <span style="color:red">type</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="radio"</span>
+            <span style="color:red">id </span><!--  
+            --><span style="color:rgb(1, 142, 34)">="css" </span>
+            <span style="color:red">name</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="fav_language"</span>
+            <span style="color:red">value</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="css"</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="css"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">css</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+             <br>
+
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+            --><span style="color:mediumblue">input</span>
+            <span style="color:red">type</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="radio"</span>
+            <span style="color:red">id </span><!--  
+            --><span style="color:rgb(1, 142, 34)">="javascript" </span>
+            <span style="color:red">name</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="fav_language"</span>
+            <span style="color:red">value</span><!--  
+            --><span style="color:rgb(1, 142, 34)">="javascript"</span><!--
+            --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--  
+              --><span style="color:mediumblue">label</span>
+             <span style="color:red">for</span><!--  
+              --><span style="color:rgb(1, 142, 34)">="javascript"</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>  
+             <span style="color:rgb(67, 67, 67)">javascript</span>    
+             <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+             --><span style="color:mediumblue">label</span><!--
+             --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+
+
+              </span>
+
+              <br>
+
+              <span style="color:rgb(67, 67, 67)">&lt;</span><!--
+              --><span style="color:mediumblue">form</span><!--
+              --><span style="color:rgb(67, 67, 67)">&gt;</span>
+
+            </span>
+            
+            <span class="prefiew-input">
+              Zo wordt de bovenstaande HTML-code weergegeven in een browser:
+            </span>
+            <br>
+            
+            <form>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html"> HTML <label>
+                
+                <br><br>
+
+              <input type="radio" id="css" name="fav_language" value="css">
+              <label for="css"> css <label>
+
+                <br><br>
+                
+              <input type="radio" id="javascript" name="fav_language" value="javascript">
+              <label for="javascript"> javascript <label>
+            <form>
+
+          </div>
+
+
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="emotion-group" aria-label="">
+      <h2 aria-label="Heeft deze pagina geholpen?">
+        Heeft deze pagina geholpen?
+      </h2>
+      <h4 aria-label="Maak een keuze uit de onderstaande knoppen.">
+        Maak een keuze uit de onderstaande knoppen
+      </h4>
+      <div class="emotion-group-btns" aria-label="Hoe vind je de website?" id="emotion-group">
+        <button class="btn-emotion bg-green" aria-label="blije smiley." onclick="sendEmotion()">
+          <i class="icon fa-regular fa-face-smile"></i>
+        </button>
+        <button class="btn-emotion bg-yellow" aria-label="neutrale smiley." onclick="sendEmotion()">
+          <i class="icon c-black fa-regular fa-face-meh"></i>
+        </button>
+        <button class="btn-emotion bg-red" aria-label="ongelukkige smiley." onclick="sendEmotion()">
+          <i class="icon fa-regular fa-face-frown"></i>
+        </button>
+      </div>
+    </div>
+    <nav>
+      <div class="footer-links">
+        <a href="mailto:info@vervoeregio.nl?subject=Feedback%20over%20Toolgankelijk"
+          aria-label="Stuur een e-mail naar Vervoeregio Amsterdam."><i class="fa-solid fa-envelope"></i> Contact ons</a>
+        <a href="ontwikkelaar.html" aria-label="Lees meer info over de ontwikkelaar van Toolgankeljk."><i
+            class="fa-solid fa-address-card"></i> Over de ontwikkelaar</a>
+      </div>
+      <div class="social-media-group">
+        <h3 class="c-magenta">
+          Deel deze tool op:
+        </h3>
+        <div>
+          <a target="_blank"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+            class="fb-xfbml-parse-ignore" aria-label="Deel deze website op Facebook."><i
+              class="icon fa-brands fa-square-facebook"></i></a>
+          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world"
+            aria-label="Deel deze website op Twitter."><i class="icon fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </nav>
+  </footer>
+  <script src="./scripts/script.js" type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/45c29531a0.js" crossorigin="anonymous"></script>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v15.0"
+    nonce="TpOVwmNv"></script>
+</body>

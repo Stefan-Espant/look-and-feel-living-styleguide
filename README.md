@@ -2,7 +2,21 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Naam deeltaak
+# Styleguide Vervoerregio Amsterdam
+
+## Inhoudsopgave
+
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
+
+## Beschrijving
+
+
+## Kenmerken
+
+## Bronnen
 
 
 ## Licentie
