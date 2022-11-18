@@ -641,7 +641,6 @@ p {
 
 .content svg {
   margin: 0 0.2em 0 -0.4em;
-  fill: var(--c-magenta);
 }
 
 #fontIncrease {
