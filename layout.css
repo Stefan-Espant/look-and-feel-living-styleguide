@@ -517,7 +517,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Fira Sans, Calibri, sans-serif;
+  font-family: Fira Sans Medium, Calibri, sans-serif;
   font-weight: initial;
   color: var(--c-magenta);
 }
@@ -526,6 +526,7 @@ h1 {
   font-size: 2em;
   max-width: 20em;
   letter-spacing: -0.02em;
+  font-family: Fira Sans Medium;
 }
 
 .toolgankelijk {
@@ -541,18 +542,21 @@ h2 {
   font-size: 1.5em;
   max-width: 20em;
   letter-spacing: -0.02em;
+  font-family: Fira Sans Medium;
 }
 
 h3 {
   font-size: 1.2em;
   max-width: 20em;
   letter-spacing: -0.02em;
+  font-family: Fira Sans Medium;
 }
 
 h4 {
   font-size: 1em;
   max-width: 30em;
   letter-spacing: -0.02em;
+  font-family: Fira Sans Medium;
 }
 
 p {
@@ -910,6 +914,7 @@ article .guidelines {
   h1 {
     font-size: 2em;
     max-width: 20em;
+    font-family: Fira Sans Medium;
   }
 
   .toolgankelijk {
@@ -1338,6 +1343,7 @@ article .guidelines {
   h1 {
     font-size: 2em;
     max-width: 20em;
+    font-family: Fira Sans Medium;
   }
 
   h1 .toolgankelijk {
@@ -1557,6 +1563,7 @@ article .guidelines {
   h1 {
     font-size: 2em;
     max-width: 20em;
+    font-family: Fira Sans Medium;
   }
 
   .toolgankelijk {

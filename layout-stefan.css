@@ -1570,7 +1570,7 @@ article .guidelines {
         color: var(--c-white);
         border-radius: 0.8em;
         padding: 2em;
-        width: auto;
+        width: fit-content;
         overflow-x: scroll;
     }
 
