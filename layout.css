@@ -51,7 +51,6 @@
 html {
   scroll-behavior: smooth;
   overflow: scroll;
-  overflow-x: hidden;
 }
 
 body {
@@ -71,39 +70,18 @@ header {
 }
 
 footer {
-  width: 100vw;
-  height: auto;
-  display: inline-block;
-  background-color: var(--c-magenta);
-}
-
-footer::before {
-  content: "";
-  display: block;
-  width: 100vw;
-  height: 3vh;
-  background-image: linear-gradient(90deg, #b9005f01 0 5%, var(--c-magenta) 95%);
-  margin-top: -2em;
-}
-
-footer div {
-  display: block;
+  display: flex;
+  float: right;
 }
 
 footer nav {
-  display: block;
-  width: auto;
-  margin: 1em;
+  display: flex;
+  width: 50%;
+  margin: auto;
 }
 
 footer nav .footer-links {
   display: block;
-}
-
-footer h2,
-h3,
-h4 {
-  color: var(--c-white);
 }
 
 .footer-links a {
@@ -111,24 +89,14 @@ h4 {
   width: auto;
   padding: 0.4em 0.8em;
   margin: 0.8em;
-  color: var(--c-white);
-}
-
-.footer-links a:hover {
-  color: var(--c-magenta);
-}
-
-.footer-links a:focus {
-  color: var(--c-magenta);
 }
 
 .footer-link i {
-  margin: 0 0.4em;
+  margin: 0 0.4em 0 0em;
 }
 
 footer .social-media-group {
-  margin: 1em;
-  display: block;
+  margin: auto;
 }
 
 .social-media-group div {
@@ -141,18 +109,6 @@ footer .social-media-group {
   display: flex;
   padding: 0.4em;
   margin: 0.2em;
-  color: var(--c-white);
-}
-
-.social-media-group div a:hover {
-  background-color: var(--c-white);
-  color: var(--c-magenta);
-}
-
-.social-media-group div a:focus {
-  color: var(--c-white);
-  border: 0.2em solid var(--c-white);
-  background: none;
 }
 
 button {
@@ -204,6 +160,12 @@ header #logo::after {
   height: 6em;
   fill: #fff;
 }
+/*
+#logo:hover {
+  border: 0.2em solid red;
+  transition: 0.8s;
+}
+*/
 
 #after-curve {
   width: 100vw;
@@ -381,6 +343,14 @@ a:focus-visible {
   transition: 0.4s;
 }
 
+/*button:focus {
+  background-color: #fff;
+  border-radius: 0.4em;
+  color: var(--c-magenta);
+  fill: #fff;
+  outline: none;
+}
+
 /* Interface */
 
 .ui-settings {
@@ -518,7 +488,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Fira Sans, Calibri, sans-serif;
+  font-family: Fira Sans, sans-serif;
   font-weight: initial;
   color: var(--c-magenta);
 }
@@ -566,15 +536,12 @@ p {
   width: 1em;
   aspect-ratio: 1/1;
   font-size: 2em;
-  margin: 0.2em 0.25em;
+  margin: 0.2em;
   transition: 0.8s ease-in-out;
 }
 
 .emotion-group {
   margin: 1em;
-  margin-right: 0;
-  display: block;
-  width: fit-content;
 }
 
 #emotion-group {
@@ -700,8 +667,7 @@ article .guidelines {
 .hide {
   display: none;
 }
-
-.content-item {
+x .content-item {
   transition: 0.8s;
   padding: 0;
 }
@@ -767,24 +733,9 @@ article .guidelines {
   }
 
   footer {
-    width: 100vw;
-    height: auto;
-    display: inline-block;
-    margin: 0;
-    background-color: var(--c-magenta);
-  }
-
-  footer::before {
-    content: "";
     display: block;
+    margin: 1em auto;
     width: 100vw;
-    height: 3vh;
-    background-image: linear-gradient(90deg, #b9005f01 0 5%, var(--c-magenta) 95%);
-    margin-top: -2em;
-  }
-
-  footer div {
-    display: block;
   }
 
   footer nav {
@@ -797,12 +748,6 @@ article .guidelines {
     display: block;
     margin: 2em 0;
     width: 80vw;
-  }
-
-  footer h2,
-  h3,
-  h4 {
-    color: var(--c-white);
   }
 
   footer nav a {
@@ -955,36 +900,16 @@ article .guidelines {
   }
 
   footer {
-    width: 100vw;
-    height: auto;
-    display: inline-block;
-    margin: 0;
-    background-color: var(--c-magenta);
-  }
-
-  footer::before {
-    content: "";
     display: block;
-    width: 100vw;
-    height: 3vh;
-    background-image: linear-gradient(90deg, #b9005f01 0 5%, var(--c-magenta) 95%);
-    margin-top: -1.5em;
-  }
-
-  footer div {
-    display: flex;
+    width: 80vw;
+    margin: 1em auto;
+    float: none;
   }
 
   footer nav {
     display: flex;
-    width: auto;
+    width: 80vw;
     margin: auto;
-  }
-
-  footer h2,
-  h3,
-  h4 {
-    color: var(--c-white);
   }
 
   .subject {
@@ -1047,6 +972,8 @@ article .guidelines {
   }
 }
 
+/* Typografie */
+
 @media (min-width: 380px) and (max-width: 480px) {
   .toptab {
     display: flex;
@@ -1090,23 +1017,9 @@ article .guidelines {
   }
 
   footer {
-    display: inline-block;
-    margin: 0;
-    width: 100vw;
-    background-color: var(--c-magenta);
-  }
-
-  footer::before {
-    content: "";
     display: block;
+    margin: 1em auto;
     width: 100vw;
-    height: 3vh;
-    background-image: linear-gradient(90deg, #b9005f01 0 5%, var(--c-magenta) 95%);
-    margin-top: -1.5em;
-  }
-
-  footer div {
-    display: block;
   }
 
   footer nav {
@@ -1115,19 +1028,15 @@ article .guidelines {
     margin: 1em;
   }
 
-  footer h2,
-  h3,
-  h4 {
-    color: var(--c-white);
-  }
-
   footer nav .footer-links {
-    display: block;
+    display: flex;
+    margin: 2em auto;
+    width: 90vw;
   }
 
   .footer-links a {
     display: block;
-    width: fit-content;
+    width: auto;
     padding: 0.4em;
     margin: 0.8em;
   }
@@ -1192,47 +1101,25 @@ article .guidelines {
   }
 
   footer {
-    width: 100vw;
-    display: inline-block;
+    width: 90vw;
+    display: flex;
     margin: auto;
     float: none;
-    background-color: var(--c-magenta);
-  }
-
-  footer::before {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 3vh;
-    background-image: linear-gradient(90deg, #b9005f01 0 5%, var(--c-magenta) 95%);
-    margin-top: -2em;
-  }
-
-  footer div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   footer .emotion-group {
-    margin: 1em;
-    max-width: 45vw;
-    display: block;
+    margin: 1em 0;
+    width: 45vw;
   }
 
   footer nav {
     display: flex;
-    width: fit-content;
+    width: auto;
+    margin: auto;
   }
 
   footer nav .footer-links {
     display: block;
-  }
-
-  footer h2,
-  h3,
-  h4 {
-    color: var(--c-white);
   }
 
   .footer-links a {
@@ -1240,7 +1127,6 @@ article .guidelines {
     width: auto;
     padding: 0.4em;
     margin: 0.8em;
-    color: var(--c-white);
   }
 
   .subject {
@@ -1403,42 +1289,10 @@ article .guidelines {
   }
 
   footer {
-    width: 100vw;
-    height: auto;
-    display: inline-block;
-    margin: 0em auto;
-    background-color: var(--c-magenta);
-  }
-
-  footer::before {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 3vh;
-    background-image: linear-gradient(90deg, #b9005f01 0 5%, var(--c-magenta) 95%);
-    margin-top: -1.5rem;
-  }
-
-  footer div {
+    width: 70vw;
     display: flex;
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-
-  footer nav {
-    display: flex;
-  }
-
-  .emotion-group {
-    margin: 1em;
-  }
-
-  .emotion-group h2,
-  h3,
-  h4 {
-    color: var(--c-white);
+    margin: 0em auto 2em;
+    float: right;
   }
 
   #desktop {

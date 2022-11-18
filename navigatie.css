@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Fira Sans Regular";
+  src: url("./fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Fira Sans Medium";
+  src: url("./fonts/FiraSans-Medium.ttf");
+}
+
+:root {
+  --huisstijl: #b9005f;
+  --geel: #ffd05f;
+  --cyaan: #46becd;
+  --turkoois: #25ae93;
+  --blauw: #606eb3;
+  --bruin: #6a4955;
+  --zand: #c9b5b2;
+  --grijs: #444444;
+  --licht-grijs: #dddddd;
+  --wit: #fff;
+}
+
+.body {
+  font-family: "Fira Sans medium";
+  background-color: #f4f3f3;
+  border-radius: 0.6rem;
+  max-width: 66vw;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-areas:
+    "header header"
+    "grid-main-left grid-main-right"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+  color: var(--huisstijl);
+  padding-left: 1rem;
+  max-width: 35rem;
+  line-height: 1.6;
+}
+
+/* Linker mapjes */
+.grid-main-left {
+  grid-area: grid-main-left;
+  padding-left: 1rem;
+}
+
+.flex-main-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.map1,
+.map2,
+.map3,
+.map4,
+.map5 {
+  display: flex;
+  align-items: center;
+}
+
+.map1 p,
+.map2 p,
+.map3 p,
+.map4 p,
+.map5 p {
+  display: none;
+  padding-left: 0.5rem;
+}
+
+.map1:hover p,
+.map2:hover p,
+.map3:hover p,
+.map4:hover p,
+.map5:hover p {
+  display: block;
+}
+
+.map1:hover p {
+  color: var(--huisstijl);
+}
+
+.map2:hover p {
+  color: var(--geel);
+}
+
+.map3:hover p {
+  color: var(--cyaan);
+}
+
+.map4:hover p {
+  color: var(--turkoois);
+}
+
+.map5:hover p {
+  color: var(--blauw);
+}
+
+/* Rechter mapjes */
+.grid-main-right {
+  grid-area: grid-main-right;
+  margin: 0 auto;
+}
+
+.flex-main-right-background {
+  background-color: var(--licht-grijs);
+  border-radius: 0.6rem;
+  padding: 1rem;
+}
+
+.flex-main-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Onderste mapje */
+.footer {
+  grid-area: footer;
+  display: flex;
+  margin: 0 auto;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer p {
+  width: 6rem;
+  padding-left: 1rem;
+}
+
+.footer-background {
+  background-color: var(--licht-grijs);
+  cursor: pointer;
+  border-radius: 0.6rem;
+  padding: 2rem;
+}
+
+.footer-background-hover {
+  transition: ease-out 0.3s;
+}
+
+.footer-background-hover:hover {
+  background-color: var(--wit);
+  border-radius: 0.6rem;
+  padding: 2rem;
+  transition: 1s ease;
+}
+
+svg {
+  width: 5rem;
+}
