@@ -12,7 +12,7 @@
 
 ## Beschrijving
 Voor de opdrachtgever Vervoerregio Amsterdam bouwen wij aan de living styleguide. Dit is een overzichtsite die alle componenten bevat voor een website.
-Waaronder de volgende categorieën: TYpografie, Lay-out, knoppen, input en formulieren, iconen, illustraties etc.
+Waaronder de volgende categorieën: Typografie, Lay-out, knoppen, input en formulieren, iconen, illustraties etc.
 
 ## Kenmerken
 Deze styleguide is opgebouwd uit de volgende programmeertalen:
