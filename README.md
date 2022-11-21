@@ -22,10 +22,10 @@ Deze styleguide is opgebouwd uit de volgende programmeertalen:
 
 ## Bronnen
 Voor deze styleguide hebben we de volgende bronnen gebruikt:
+* [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 * https://css-tricks.com/
 * https://www.decathlon.design/
 * https://developer.mozilla.org/en-US/
-* [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 * https://whatwg.org/
 
 ## Licentie
