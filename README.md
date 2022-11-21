@@ -1,7 +1,3 @@
-> _Fork_ deze deeltaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Styleguide Vervoerregio Amsterdam
 
 <img width="1512" alt="Schermafbeelding 2022-11-21 om 08 11 26" src="https://user-images.githubusercontent.com/89298385/202987275-51bb1695-4917-4124-b6aa-38cf8b4add4c.png">
@@ -29,6 +25,7 @@ Voor deze styleguide hebben we de volgende bronnen gebruikt:
 * https://css-tricks.com/
 * https://www.decathlon.design/
 * https://developer.mozilla.org/en-US/
+* [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 * https://whatwg.org/
 
 ## Licentie
