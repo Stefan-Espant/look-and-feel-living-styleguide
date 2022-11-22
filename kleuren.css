@@ -1,0 +1,98 @@
+.kleuren-uitleg {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#contrastkleuren .kleurblokken {
+    
+}
+
+.intro {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+.kleurblokken {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#geel .kleurblok {
+    background-color: #FFD05F;
+}
+
+#blauw .kleurblok{
+    background-color: #46BECD;
+}
+
+#groen .kleurblok {
+    background-color: #25AE93;
+}
+
+#donkerblauw .kleurblok{
+    background-color: #606EB3;
+}
+
+#eggplant .kleurblok{
+    background-color: #6A4955;
+}
+
+#coldturkey .kleurblok{
+    background-color: #C9B5B2;
+}
+
+#tundora .kleurblok{
+    background-color: #444444;
+}
+
+#alto .kleurblok{
+    background-color: #DDDDDD;
+}
+
+#magenta {
+    width: 15rem;
+}
+
+#gradient-magenta .kleurblok {
+    background-image: linear-gradient(to right, #B9005F , #E30059);
+}
+
+#magenta .kleurblok {
+    background-color: #B9005F;
+}
+
+.kleurblok {
+    border-radius: 1rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: .5rem;
+}
+
+.item.groot {
+    flex-grow: 1;
+}
+
+.kleurhex {
+    color: white;
+    font-weight: bold;
+}
+
+.more-info {
+    margin-left: auto;
+    height: .5rem;
+}
+
+.folder {
+    padding: 2rem 8rem;
+}
+
+
