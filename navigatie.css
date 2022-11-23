@@ -161,6 +161,8 @@
   transition: 1s ease;
 }
 
-svg {
+.grid-main-left svg,
+.grid-main-right svg,
+.footer svg {
   width: 5rem;
 }
