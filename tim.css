@@ -238,6 +238,7 @@ aside a {
   justify-content: space-around;
   margin: 2.5em auto;
   flex-wrap: wrap;
+  overflow-y: scroll;
 }
 
 .categorie {
