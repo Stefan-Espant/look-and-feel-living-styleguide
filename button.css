@@ -41,6 +41,20 @@ body{
     padding: 5em;
 } */
 
+.ui-settings a:hover{
+    cursor: pointer;
+}
+
+.ui-settings button:hover{
+    cursor: pointer;
+}
+
+.ui-settings a, svg {
+    fill: var(--magenta);
+    color: var(--c-magenta);
+}
+
+
 button{
     border: none;
     background: none;
@@ -154,14 +168,4 @@ button{
     font-size: 1.125em;
     line-height: 1.575em;
     color: white;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
-
-/* .submit-btn{
-    background: var(--magenta);
-    color: white;
-    padding: 0.8em 1.6em;
-    border: none;
-    border-radius: 0.3em;
-    font-family: 'Fira sans';
-} */
