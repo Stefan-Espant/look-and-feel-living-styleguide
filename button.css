@@ -36,9 +36,14 @@ body{
 }
 */
 
-main{
+/* main{
     background-color: var(--licht-grijs);
     padding: 5em;
+} */
+
+button{
+    border: none;
+    background: none;
 }
 
 .buttons{
