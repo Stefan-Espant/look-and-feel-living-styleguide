@@ -29,26 +29,6 @@
   src: url(./font/firasans-regular.ttf);
 }
 
-/* Toggle tussen font sizes */
-.text120 {
-  font-size: 120%;
-}
-
-.text100 {
-  font-size: 1em * 100%;
-}
-
-/* Increase contrast */
-.dark-contrast {
-  --c-red: #aa0044;
-  --c-yellow: #755300;
-  --c-green: #096351;
-  --c-teal: #1c5f68;
-  --c-blue: #485593;
-  --c-magenta: #800041;
-  transition: 0.4s ease-out;
-}
-
 html {
   scroll-behavior: smooth;
   overflow: scroll;
@@ -154,32 +134,6 @@ footer .social-media-group {
   background: none;
 }
 
-button {
-  background-color: #eee;
-  border: none;
-  cursor: pointer;
-  padding: 0.4em;
-}
-
-button:hover {
-  background-color: #fff;
-  border-radius: 0.4em;
-  transition: 0.8s;
-}
-
-button:focus {
-  background-color: #fff;
-  outline: 0.2em solid var(--c-magenta);
-  border-radius: 0.4em;
-  padding: 0.4em;
-  transition: 0.4s;
-}
-
-button:focus-visible {
-  outline: 0.2em solid var(--c-magenta);
-  transition: 0.4s;
-}
-
 header #logo {
   width: auto;
   height: 5em;
@@ -228,29 +182,6 @@ header #logo::after {
   height: 2em;
   display: block;
   background-color: sierra;
-}
-
-a {
-  text-decoration: none;
-  color: var(--c-magenta);
-  transition: 0.4s ease-in-out;
-  transform-origin: center;
-  padding: 0.8em 1.2em;
-}
-
-a:hover {
-  background-color: var(--c-white);
-  transition: 0.4s;
-  border-radius: 0.4em;
-}
-
-.a-text {
-  display: inline;
-}
-
-.a-text:hover {
-  color: var(--c-red);
-  transition: 0.4s ease-in-out;
 }
 
 aside {
@@ -906,32 +837,6 @@ article .guidelines {
     justify-content: space-around;
   }
 
-  .subject-img {
-    width: 100%;
-    object-fit: cover;
-  }
-
-  /* Typografie */
-
-  h1 {
-    font-size: 2em;
-    max-width: 20em;
-    font-family: Fira Sans Medium;
-  }
-
-  .toolgankelijk {
-    font-size: 2em;
-  }
-
-  .emotion {
-    aspect-ratio: 1/1;
-    font-size: 3em;
-  }
-
-  .folder {
-    min-height: 25em;
-  }
-
 }
 
 @media (min-width: 441px) and (max-width: 767px) {
@@ -1118,10 +1023,6 @@ article .guidelines {
         display: block;
         width: auto;
         margin: 1em;
-      }
-
-      footer h2, h3, h4 {
-        color: var(--c-white);
       }
     
       footer nav .footer-links {
@@ -1340,23 +1241,6 @@ article .guidelines {
     right: 1em;
   }
 
-
-  /* Typografie */
-  h1 {
-    font-size: 2em;
-    max-width: 20em;
-    font-family: Fira Sans Medium;
-
-  }
-
-  h1 .toolgankelijk {
-    font-size: 2em;
-  }
-
-  p {
-    color: #444;
-  }
-
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
@@ -1560,27 +1444,6 @@ article .guidelines {
     position: absolute;
     right: 1em;
     height: 1em;
-  }
-
-  /* Typografie */
-  h1 {
-    font-size: 2em;
-    max-width: 20em;
-    font-family: Fira Sans Medium;
-
-  }
-
-  .toolgankelijk {
-    font-size: 4em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  p {
-    color: #444;
-    /*! letter-spacing: -0.02em; */
   }
 
 }
