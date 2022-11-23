@@ -1,225 +1,222 @@
 :root {
-    --wit: #FFF;
-    --geel: #FFD05F;
-    --cyaan: #46BECD;
-    --turkoois: #25AE93;
-    --blauw: #606EB3;
-    --bruin: #6A4955;
-    --zand: #C9B5B2;
-    --grijs: #444444;
-    --licht-grijs: #DDDDDD;
-    --licht-zwart: #525151;
-    --border: 2px solid var(--licht-grijs);
-    --gradient-color-magenta: linear-gradient(332deg, #B9005F 0%, #E30059 100%);
-  }  
+  --wit: #fff;
+  --geel: #ffd05f;
+  --cyaan: #46becd;
+  --turkoois: #25ae93;
+  --blauw: #606eb3;
+  --bruin: #6a4955;
+  --zand: #c9b5b2;
+  --grijs: #444444;
+  --licht-grijs: #dddddd;
+  --licht-zwart: #525151;
+  --border: 2px solid var(--licht-grijs);
+  --gradient-color-magenta: linear-gradient(332deg, #b9005f 0%, #e30059 100%);
+}
 
 @font-face {
-    font-family: 'Fira Sans Regular';
-    src:
-      url('./fonts/FiraSans-Regular.ttf');
-  }
-  
-  @font-face {
-    font-family: 'Fira Sans Medium';
-    src:
-      url('./fonts/FiraSans-Medium.ttf');
-  }
-  
-  
-  .typografie-styleguide {
-    background-color: white;
-    padding: 0.625rem;
-    max-width: 70rem;
-    margin: auto;
-  }
-  
-  .sg-heading {
-    border-bottom: var(--border);
-    padding: 0.625rem; 
-    max-height: 8rem;
-    min-height: 8rem;
-    display: flex;
-  }
-  
-  .voorbeeld-box-links {
-    min-width: 34rem;
-  }
-  
-  .voorbeeld-box-rechts {
-    max-width: 15em;
-  }
-  
-  .heading-informatie {
-    display: flex;
-  }
-  
-  .heading-kopje-text {
-    margin: auto;
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  
-  .tekst-kopje-informatie {
-    padding-left: 2px;
-    padding-top: 2px;
-    color: var(--licht-zwart);
-  }
-  
-  .tekst-van-informatie {
-    padding-left: 2px;
-    padding-top: 0px;
-  }
-  
-  .font-family-informatie {
-    min-width: 9rem;
-    min-height: 4.5rem;
-    margin: auto;
-  }
-  
-  .font-size-informatie {
-    min-width: 9rem;
-    min-height: 4.5rem;
-    margin: auto;
-  }
-  
-  .line-height-informatie {
-    min-width: 9rem;
-    min-height: 4.5rem;
-    margin: auto;
-  }
-  
-  .header-1-syleguide {
-    font-size: 36px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .header-2-syleguide {
-    font-size: 32px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .header-3-syleguide {
-    font-size: 24px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .header-4-syleguide {
-    font-size: 20px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .header-5-syleguide {
-    font-size: 18px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .header-6-syleguide {
-    font-size: 16px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .paragraaf-syleguide {
-    font-size: 16px;
-    font-family: 'Fira Sans Regular';
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .linkjes {
-    font-size: 16px;
-    font-family: 'Fira Sans Medium';
-    font-weight: inherit;
-    letter-spacing: -0.02em;
-    margin: auto;
-    padding: 0.625rem;
-    color: var(--licht-zwart);
-  }
-  
-  .calibri-kopje-text {
-    font-family: Calibri;
-    margin: auto;
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  
-  .firasansmedium-kopje-text {
-    font-family: 'Fira Sans Medium';
-    margin: auto;
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  
-  .firasansregular-kopje-text {
-    font-family: 'Fira Sans Regular';
-    margin: auto;
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  
-  .abc-calibri-informatie {
-    font-family: Calibri;
-    margin: auto;
-    font-size: 1.1rem;
-    color: var(--licht-zwart);
-  }
-  
-  .abc-firasansmedium-informatie {
-    font-family: 'Fira Sans Medium';
-    margin: auto;
-    font-size: 1.1rem;
-    color: var(--licht-zwart);
-  }
-  
-  .abc-firasansregular-informatie {
-    font-family: 'Fira Sans Regular';
-    margin: auto;
-    font-size: 1.1rem;
-    color: var(--licht-zwart);
-  }
-  
-  .lettertypes-kopje-text {
-    font-family: 'Fira Sans Medium';
-    margin: auto;
-    font-size: 2.1rem;
-    color: var(--c-magenta);
-    padding-top: 1.81rem;
-  }
-  
-  .hpl-kopje-text {
-    font-family: 'Fira Sans Medium';
-    margin: auto;
-    font-size: 2.1rem;
-    color: var(--c-magenta);
-    padding-top: 1.81rem;
-  }
+  font-family: "Fira Sans Regular";
+  src: url("./fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Fira Sans Medium";
+  src: url("./fonts/FiraSans-Medium.ttf");
+}
+
+.typografie-styleguide {
+  background-color: white;
+  padding: 0.625rem;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.sg-heading {
+  border-bottom: var(--border);
+  padding: 0.625rem;
+  max-height: 8rem;
+  min-height: 8rem;
+  display: flex;
+}
+
+.voorbeeld-box-links {
+  min-width: 34rem;
+}
+
+.voorbeeld-box-rechts {
+  max-width: 15em;
+}
+
+.heading-informatie {
+  display: flex;
+}
+
+.heading-kopje-text {
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.tekst-kopje-informatie {
+  padding-left: 2px;
+  padding-top: 2px;
+  color: var(--licht-zwart);
+}
+
+.tekst-van-informatie {
+  padding-left: 2px;
+  padding-top: 0px;
+}
+
+.font-family-informatie {
+  min-width: 9rem;
+  min-height: 4.5rem;
+  margin: auto;
+}
+
+.font-size-informatie {
+  min-width: 9rem;
+  min-height: 4.5rem;
+  margin: auto;
+}
+
+.line-height-informatie {
+  min-width: 9rem;
+  min-height: 4.5rem;
+  margin: auto;
+}
+
+.header-1-syleguide {
+  font-size: 36px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.header-2-syleguide {
+  font-size: 32px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.header-3-syleguide {
+  font-size: 24px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.header-4-syleguide {
+  font-size: 20px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.header-5-syleguide {
+  font-size: 18px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.header-6-syleguide {
+  font-size: 16px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.paragraaf-syleguide {
+  font-size: 16px;
+  font-family: "Fira Sans Regular";
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.linkjes {
+  font-size: 16px;
+  font-family: "Fira Sans Medium";
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+  margin: auto;
+  padding: 0.625rem;
+  color: var(--licht-zwart);
+}
+
+.calibri-kopje-text {
+  font-family: Calibri;
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.firasansmedium-kopje-text {
+  font-family: "Fira Sans Medium";
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.firasansregular-kopje-text {
+  font-family: "Fira Sans Regular";
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.abc-calibri-informatie {
+  font-family: Calibri;
+  margin: auto;
+  font-size: 1.1rem;
+  color: var(--licht-zwart);
+}
+
+.abc-firasansmedium-informatie {
+  font-family: "Fira Sans Medium";
+  margin: auto;
+  font-size: 1.1rem;
+  color: var(--licht-zwart);
+}
+
+.abc-firasansregular-informatie {
+  font-family: "Fira Sans Regular";
+  margin: auto;
+  font-size: 1.1rem;
+  color: var(--licht-zwart);
+}
+
+.lettertypes-kopje-text {
+  font-family: "Fira Sans Medium";
+  margin: auto;
+  font-size: 2.1rem;
+  color: var(--c-magenta);
+  padding-top: 1.81rem;
+}
+
+.hpl-kopje-text {
+  font-family: "Fira Sans Medium";
+  margin: auto;
+  font-size: 2.1rem;
+  color: var(--c-magenta);
+  padding-top: 1.81rem;
+}
