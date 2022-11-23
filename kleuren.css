@@ -20,6 +20,26 @@
     gap: 2rem;
 }
 
+.kleurblok {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.kleurblok h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.kleurblok p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
+
 #geel .kleurblok {
     background-color: #FFD05F;
 }
@@ -66,7 +86,7 @@
 
 .kleurblok {
     border-radius: 1rem;
-    height: 10rem;
+    /* height: 10rem; */
     padding: 1rem;
 }
 
@@ -79,6 +99,11 @@
 
 .item.groot {
     flex-grow: 1;
+}
+
+.item h3 {
+    color: #444;
+    margin: 0;
 }
 
 .kleurhex {
