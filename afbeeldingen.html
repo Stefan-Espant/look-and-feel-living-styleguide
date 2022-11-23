@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vervoerregio Amsterdam living styleguide</title>
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="afbeeldingen.css" />
+    <link rel="icon" type="image/png" href="./assets/va-favicon.png" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="assets/logo.png" alt="logo Vervoerregio Amsterdam" />
+      <div id="after-curve"></div>
+    </header>
+    <aside class="cntt">
+      <a href="./begrijpelijk.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          ></path>
+        </svg>
+        <p>Knoppen</p>
+      </a>
+      <a class="categorie active">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          ></path>
+        </svg>
+        <p>Lay-out</p>
+      </a>
+      <a href="./bedienbaar.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          ></path>
+        </svg>
+        <p>Menu's</p>
+      </a>
+      <a href="./robuust.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          ></path>
+        </svg>
+        <p>Iconen</p>
+      </a>
+    </aside>
+    <main class="subject">
+      <div class="toptab">
+        <div class="tab"></div>
+        <div class="curve"></div>
+        <div class="curve-bg"></div>
+        <!-- Dit zijn de twee knoppen om de toegankelijkheid van de content te verbeteren -->
+        <ul class="ui-settings">
+          <li>
+            <a
+              href="https://styleguide-vervoerregioamsterdam.student.fdnd.nl/"
+              aria-label="Ga terug naar de homepagina"
+            >
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li>
+            <button
+              class="fontSize"
+              aria-label="Vergroot tekst"
+              onclick="fontSize()"
+            >
+              <svg
+                width="44"
+                height="36"
+                viewBox="0 0 33 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1123 20L12.1043 15.828H6.44827L5.46827 20H0.708266L6.56027 0.595999H12.1323L17.9843 20H13.1123ZM7.23227 12.496H11.3203L9.27627 3.928L7.23227 12.496ZM31.1399 15.688C31.1399 16.248 31.2146 16.6587 31.3639 16.92C31.5319 17.1813 31.7932 17.3773 32.1479 17.508L31.2239 20.392C30.3092 20.3173 29.5626 20.1213 28.9839 19.804C28.4052 19.468 27.9572 18.9453 27.6399 18.236C26.6692 19.7293 25.1759 20.476 23.1599 20.476C21.6852 20.476 20.5092 20.0467 19.6319 19.188C18.7546 18.3293 18.3159 17.2093 18.3159 15.828C18.3159 14.204 18.9132 12.9627 20.1079 12.104C21.3026 11.2453 23.0292 10.816 25.2879 10.816H26.7999V10.172C26.7999 9.29467 26.6132 8.69733 26.2399 8.38C25.8666 8.044 25.2132 7.876 24.2799 7.876C23.7946 7.876 23.2066 7.95067 22.5159 8.1C21.8252 8.23067 21.1159 8.41733 20.3879 8.66L19.3799 5.748C20.3132 5.39333 21.2652 5.12267 22.2359 4.936C23.2252 4.74933 24.1399 4.656 24.9799 4.656C27.1079 4.656 28.6666 5.09467 29.6559 5.972C30.6452 6.84933 31.1399 8.16533 31.1399 9.92V15.688ZM24.4479 17.312C25.4559 17.312 26.2399 16.836 26.7999 15.884V13.252H25.7079C24.6999 13.252 23.9439 13.4293 23.4399 13.784C22.9546 14.1387 22.7119 14.6893 22.7119 15.436C22.7119 16.0333 22.8612 16.5 23.1599 16.836C23.4772 17.1533 23.9066 17.312 24.4479 17.312Z"
+                  fill=""
+                ></path>
+              </svg>
+            </button>
+          </li>
+
+          <li>
+            <button
+              class="contrast-trigger"
+              id="changeContrast"
+              aria-label="Vergroot kleur contrast"
+            >
+              <svg
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM19.9943 32.0033C26.8608 31.0343 32.1429 25.134 32.1429 18C32.1429 10.866 26.8608 4.96574 19.9943 3.99665C18.9005 3.84229 18 4.75091 18 5.85548L18 18L18 30.1445C18 31.2491 18.9005 32.1577 19.9943 32.0033Z"
+                  fill=""
+                ></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <section class="folder" id="fontIncrease">
+        <div class="content">
+          <h1>Afbeeldingen</h1>
+          <div class="subcat">
+            <button
+              class="subcat-btn"
+              data-id="article1_1"
+              aria-label="1.1, Gesproken tekst"
+              href="#"
+            >
+              Selectie
+            </button>
+            <button
+              class="subcat-btn"
+              data-id="article1_2"
+              aria-label="1.2, Visuele Audiobeschrijving"
+            >
+              Positie
+            </button>
+            <button
+              class="subcat-btn"
+              data-id="article1_3"
+              aria-label="1.3, Visuele aanwijzingen"
+            >
+              Borders
+            </button>
+          </div>
+          <article class="article_inhoud">
+            <div class="discription">
+              <h3>Omschrijving</h3>
+              <p>
+                Op deze pagina bevind zich alle informatie over het gebruik van
+                afbeeldingen voor de styleguide van de Vervoerregio Amsterdam.
+              </p>
+            </div>
+            <div class="selectie">
+              <h2 id="Selectie">Selectie</h2>
+              <p class="selectie_p">
+                Afbeeldingen kunnen drie functies hebben: instrumenteel,
+                illustratief en involverend. <br />
+                <strong>Instrumenteel:</strong> Afbeeldingen die ondersteunend
+                zijn aan een specifieke boodschap. <br />
+                <strong>Illustratief:</strong> Afbeeldingen die dienen ter
+                verlevendiging van een boodschap of om een verhaal te
+                illustreren. <br />
+                <strong>Involverend:</strong> Afbeeldingen met een nadruk op
+                beleving. Reizigers en/of werklieden staan hierin centraal.
+              </p>
+              <p>
+                Het is erg belangrijk dat je een afbeelding met de goede functie
+                kiest, want dat kan je verhaal een stuk duidelijker maken.
+                Hieronder zie je wat voorbeelden van de functies van bepaalde
+                foto's
+              </p>
+              <img
+                class="info_afbeelding"
+                src="Afbeeldingen/Info.png"
+                alt="Uitleg van verschillende types afbeeldingen"
+              />
+            </div>
+            <div class="positie">
+              <h2 id="Positie">Positie</h2>
+              <p>
+                De positie van de foto kan verschillen. Zo heb je twee opties.
+                De eerste is dat je de foto bovenin de pagina zet onder de
+                header en de ander optie is dat je de foto in de tekst zet.
+              </p>
+              <h3>Bovenin</h3>
+              <p>
+                Als je de foto bovenin zet zal de foto de volledige pagina breed
+                zijn. dit doe je zo:
+              </p>
+              <img
+                class="positie_afb"
+                src="Afbeeldingen/positie_afb_bovenin.png"
+                alt="screenshot van de code"
+              />
+              <h3>In de tekst</h3>
+              <p>
+                Als je de afbeelding in de tekst zet moet je de afbeelding in
+                het midden plaatsen en moet je hem een kleinere width geven.
+                Hieronder een voorbeeld:
+              </p>
+              <img
+                class="positie_afb"
+                src="Afbeeldingen/positie_afb_idt.png"
+                alt="screenshot van de code"
+              />
+            </div>
+            <div>
+              <h2 id="Borders">Borders</h2>
+              <p>Bij de afbeeldingen worden geen borders geplaatst.</p>
+              <h3>Border-radius</h3>
+              <p>
+                Voor de border-radius wordt er 0,4 of 0,8 em gebruikt. bij de
+                meeste afbeelding wordt er 0,4 em gebruikt. Alleen bij echt
+                grotere afbeeldingen kan je ook 0,8 em gebruiken.
+              </p>
+              <img
+                src="Afbeeldingen/borders.png"
+                alt="Code voorbeeld van de borders"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/45c29531a0.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./scripts/layout.js" type="text/javascript"></script>
+</html>

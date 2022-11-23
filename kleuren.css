@@ -4,9 +4,11 @@
     gap: 2rem;
 }
 
-#contrastkleuren .kleurblokken {
-    
+section#hoofdkleur {
+    margin-bottom: 2rem;
 }
+
+#contrastkleuren .kleurblokken {}
 
 .intro {
     margin: 0;
@@ -14,9 +16,21 @@
     height: fit-content;
 }
 
+h1,
+p {
+    margin: 0;
+    max-width: 100%;
+}
+
+.intro h2,
+.intro p {
+    margin: 0;
+}
+
 .kleurblokken {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
     gap: 2rem;
 }
 
@@ -35,16 +49,26 @@
 .kleurblok p {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
+    margin: 0;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.kleurblok p:hover {
+    transform: scale(1.01);
+}
+
+.kleurblok p:active {
+    transform: scale(.98);
 }
 
 #geel .kleurblok {
     background-color: #FFD05F;
 }
 
-#blauw .kleurblok{
+#blauw .kleurblok {
     background-color: #46BECD;
 }
 
@@ -52,32 +76,32 @@
     background-color: #25AE93;
 }
 
-#donkerblauw .kleurblok{
+#donkerblauw .kleurblok {
     background-color: #606EB3;
 }
 
-#eggplant .kleurblok{
+#eggplant .kleurblok {
     background-color: #6A4955;
 }
 
-#coldturkey .kleurblok{
+#coldturkey .kleurblok {
     background-color: #C9B5B2;
 }
 
-#tundora .kleurblok{
+#tundora .kleurblok {
     background-color: #444444;
 }
 
-#alto .kleurblok{
+#alto .kleurblok {
     background-color: #DDDDDD;
 }
 
 #magenta {
-    width: 15rem;
+    width: 20rem;
 }
 
 #gradient-magenta .kleurblok {
-    background-image: linear-gradient(to right, #B9005F , #E30059);
+    background: linear-gradient(to right, #B9005F, #E30059);
 }
 
 #magenta .kleurblok {
@@ -86,14 +110,13 @@
 
 .kleurblok {
     border-radius: 1rem;
-    /* height: 10rem; */
     padding: 1rem;
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
     gap: .5rem;
 }
 
@@ -117,7 +140,22 @@
 }
 
 .folder {
-    padding: 2rem 8rem;
+    padding: 2rem;
 }
 
 
+@media (max-width: 768px) {
+
+    .item,
+    #magenta {
+        width: 100%;
+    }
+
+    .folder {
+        padding: 2rem;
+    }
+
+    .kleurblok h4 {
+        color: #ffff;
+    }
+}
