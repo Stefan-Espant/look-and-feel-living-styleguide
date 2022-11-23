@@ -375,7 +375,7 @@ article i {
     color: var(--c-white);
     padding: 0.8em;
     display: block;
-    width: fit-content;
+    width: auto;
     overflow-x: scroll;
     border-radius: 0.4em;
 }
@@ -785,7 +785,8 @@ article .guidelines {
 }
 
 .guidelines img {
-  width: 100%;
+  width: 50%;
+  border-radius: 0.4em;
 }
 
 .html {
@@ -793,6 +794,7 @@ article .guidelines {
   color: var(--c-white);
   padding: 0.8em;
   display: block;
+  width: auto;
 }
 
 .css {
@@ -883,6 +885,7 @@ article .guidelines {
     color: var(--c-white);
     padding: 0.8em;
     display: block;
+    width: fit-content;
   }
 
   .css {
@@ -1107,6 +1110,7 @@ article .guidelines {
     padding: 0.8em;
     display: block;
     border-radius: 0.4em;
+    width: fit-content;
 }  
 }
 
@@ -1201,6 +1205,7 @@ article .guidelines {
         padding: 0.8em;
         display: block;
         border-radius: 0.4em;
+        width: auto;
     }
 
     .css {
@@ -1208,7 +1213,7 @@ article .guidelines {
         color: var(--c-white);
         border-radius: 0.4em;
         padding: 2em;
-        width: fit-content;
+        width: auto;
         overflow-x: scroll;
     }
 
@@ -1421,6 +1426,7 @@ article .guidelines {
         padding: 0.8em;
         display: block;
         border-radius: 0.4em;
+        width: auto;
     }
 
     .css {
@@ -1428,7 +1434,7 @@ article .guidelines {
         color: var(--c-white);
         border-radius: 0.4em;
         padding: 2em;
-        width: fit-content;
+        width: auto;
         overflow-x: scroll;
     }
 
@@ -1769,37 +1775,20 @@ article .guidelines {
     display: inline-block;
   }
 
-    .html {
-        background-color: var(--c-blue);
-        color: var(--c-white);
-        padding: 0.8em;
-        display: block;
-        border-radius: 0.4em;
-        width: auto;
-    }
-
-    .css {
-        background-color: var(--c-green);
-        color: var(--c-white);
-        border-radius: 0.4em;
-        padding: 2em;
-        width: fit-content;
-        overflow-x: scroll;
-    }
-
   .html {
     background-color: var(--c-blue);
     color: var(--c-white);
-    padding: 0.8em;
+    padding: 0.4em;
     display: block;
+    width: fit-content;
   }
 
   .css {
     background-color: var(--c-green);
     color: var(--c-white);
-    border-radius: 0.8em;
+    border-radius: 0.4em;
     padding: 2em;
-    width: auto;
+    width: fit-content;
     overflow-x: scroll;
   }
 
