@@ -122,80 +122,74 @@
     </div>
     <section class="folder" id="fontIncrease">
       <div class="buttons">
+
+        <h2 class="c-magenta">Omschrijving</h2>
+        <p class="btn-omschrijving">
+          Op deze pagina bevind zich alle informatie over het gebruik van buttons voor de styleguide van de
+          Vervoerregio Amsterdam.
+        </p>
+
+        <h2 class="c-magenta">Button</h2>
+        <p class="btn-omschrijving">
+          Een knop is een aanklikbaar element dat wordt gebruikt om een actie uit te voeren. Hij bevat een
+          tekstlabel en er kan een ondersteunend pictogram worden weergegeven.
+          <br>
+          <br>
+          Het label beschrijft de actie die zal plaatsvinden als een gebruiker ermee interacteert.
+        </p>
+        <hr>
         <div class="button-inner">
           <button class="normal-btn">Normal state</button>
-          <p class="btn-text">Normal state button</p>
+          <p class="btn-text"></p>
+          <code class="normal-code">
+            background: linear-gradient(to right, var(--magenta), var(--light-magenta)); <br>
+            color: white; <br>
+            padding: 0.8em 1.6em; <br>
+            border: none; <br>
+            border-radius: 0.3em;
+          </code>
         </div>
-        <section class="folder" id="fontIncrease">
-          <div class="buttons">
+        <div class="button-inner">
+          <button class="hover-btn">Hover state</button>
+          <p class="btn-text"></p>
+          <code class="normal-code">
+            background: linear-gradient(to right, var(--magenta) 0%, var(--light-magenta) 10%, #FFF 11%); <br>
+            border: none; <br>
+            border-radius: 0.3em; <br>
+            padding: 0.8em 1.6em; <br>
+            color: var(--blauw); <br>
+            font-weight: 500; <br>
+          </code>
+        </div>
+        <div class="button-inner">
+          <button class="active-btn">Active state</button>
+          <p class="btn-text"></p>
+          <code class="normal-code">
+            background: white; <br>
+            color: var(--magenta); <br>
+            padding: 0.8em 1.6em; <br>
+            border: solid 1px var(--magenta); <br>
+            border-radius: 0.3em; <br>
+          </code>
+        </div>
+        <div class="button-inner">
+          <button class="focus-btn">Focus state</button>
+          <p class="btn-text"></p>
+          <code class="normal-code">
+            background: white; <br>
+            color: var(--blauw); <br>
+            padding: 0.8em 1.6em; <br>
+            outline: solid 2px var(--blauw); <br>
+            border-radius: 0.3em; <br>
+          </code>
+        </div>
+        <div class="button-inner">
+          <button class="main-btn">Test button</button>
+          <p class="btn-text"></p>
+        </div>
+      </div>
 
-            <h2 class="c-magenta">Omschrijving</h2>
-            <p class="btn-omschrijving">
-              Op deze pagina bevind zich alle informatie over het gebruik van buttons voor de styleguide van de
-              Vervoerregio Amsterdam.
-            </p>
-
-            <h2 class="c-magenta">Button</h2>
-            <p class="btn-omschrijving">
-              Een knop is een aanklikbaar element dat wordt gebruikt om een actie uit te voeren. Hij bevat een
-              tekstlabel en er kan een ondersteunend pictogram worden weergegeven.
-              <br>
-              <br>
-              Het label beschrijft de actie die zal plaatsvinden als een gebruiker ermee interacteert.
-            </p>
-            <hr>
-            <div class="button-inner">
-              <button class="normal-btn">Normal state</button>
-              <p class="btn-text"></p>
-              <code class="normal-code">
-                background: linear-gradient(to right, var(--magenta), var(--light-magenta)); <br>
-                color: white; <br>
-                padding: 0.8em 1.6em; <br>
-                border: none; <br>
-                border-radius: 0.3em;
-              </code>
-            </div>
-            <div class="button-inner">
-              <button class="hover-btn">Hover state</button>
-              <p class="btn-text"></p>
-              <code class="normal-code">
-                background: linear-gradient(to right, var(--magenta) 0%, var(--light-magenta) 10%, #FFF 11%); <br>
-                border: none; <br>
-                border-radius: 0.3em; <br>
-                padding: 0.8em 1.6em; <br>
-                color: var(--blauw); <br>
-                font-weight: 500; <br>
-              </code>
-            </div>
-            <div class="button-inner">
-              <button class="active-btn">Active state</button>
-              <p class="btn-text"></p>
-              <code class="normal-code">
-                background: white; <br>
-                color: var(--magenta); <br>
-                padding: 0.8em 1.6em; <br>
-                border: solid 1px var(--magenta); <br>
-                border-radius: 0.3em; <br>
-              </code>
-            </div>
-            <div class="button-inner">
-              <button class="focus-btn">Focus state</button>
-              <p class="btn-text"></p>
-              <code class="normal-code">
-                background: white; <br>
-                color: var(--blauw); <br>
-                padding: 0.8em 1.6em; <br>
-                outline: solid 2px var(--blauw); <br>
-                border-radius: 0.3em; <br>
-              </code>
-            </div>
-            <div class="button-inner">
-              <button class="main-btn">Test button</button>
-              <p class="btn-text"></p>
-            </div>
-          </div>
-
-        </section>
+    </section>
   </main>
 </body>
 <script src="https://kit.fontawesome.com/45c29531a0.js" crossorigin="anonymous"></script>
