@@ -798,6 +798,7 @@ article .guidelines {
   color: var(--c-white);
   padding: 0.8em;
   display: block;
+  width: auto;
 }
 
 .css {
