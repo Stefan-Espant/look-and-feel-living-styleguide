@@ -10,6 +10,9 @@
     --magenta: #B9005F;
     --light-magenta: #E30059;
     --dark-magenta: #800041;
+
+    --button-padding: 0.8em 1.6em;
+    --button-border-radius: 0.3em;
 }
 
 * {
@@ -77,18 +80,18 @@ button{
 .normal-btn{
     background: linear-gradient(to right, var(--magenta), var(--light-magenta));
     color: white;
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     border: none;
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
 }
 
 .hover-btn{
     background: linear-gradient(to right, var(--magenta) 0%, var(--light-magenta) 10%, #FFF 11%);
     border: none;
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     color: var(--blauw);
     font-weight: 500;
 }
@@ -96,36 +99,36 @@ button{
 .active-btn{
     background: white;
     color: var(--magenta);
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     border: solid 1px var(--magenta);
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans'; 
 }
 
 .focus-btn{
     background: white;
     color: var(--blauw);
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     border: solid 2px var(--blauw);
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';   
 }
 
 .main-btn{
     background: linear-gradient(to right, var(--magenta), var(--light-magenta));
     color: white;
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     border: none;
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
 }
 
 .main-btn:hover{
     background: linear-gradient(to right, var(--magenta) 0%, var(--light-magenta) 10%, #FFF 11%);
     border: none;
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     color: var(--blauw);
     font-weight: 500;
 }
@@ -133,34 +136,34 @@ button{
 .main-btn:active{
     background: white;
     color: var(--magenta);
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     border: solid 1px var(--magenta);
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
 }
 
 .main-btn:focus{
     background: white;
     color: var(--blauw);
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     outline: solid 2px var(--blauw);
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
 }
 
 .main-btn:focus-visible {
     background: white;
     color: var(--blauw);
-    padding: 0.8em 1.6em;
+    padding: var(--button-padding);
     border: solid 2px var(--blauw);
-    border-radius: 0.3em;
+    border-radius: var(--button-border-radius);
     font-family: 'Fira sans';
     outline: var(--blauw);
 }
 
 .normal-code{
     padding: 1em;
-    border-radius: 0.5em;
+    border-radius: var(--button-border-radius);
     max-width: 30em;
     background-color: var(--c-green);
     grid-row: 2/2;
