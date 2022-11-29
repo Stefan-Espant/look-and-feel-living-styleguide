@@ -61,33 +61,6 @@
           </svg>
           <p>Layout</p>
         </a>
-  
-        <a href="./typografie.html" class="categorie">
-          <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
-            ></path>
-          </svg>
-          <p>Typografie</p>
-        </a>
-  
-        <a href="./typografie.html" class="categorie">
-          <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
-            ></path>
-          </svg>
-          <p>Typografie</p>
-        </a>
-  
-        <a href="./typografie.html" class="categorie">
-          <svg viewBox="0 0 388 268" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
-            ></path>
-          </svg>
-          <p>Typografie</p>
-        </a>
       </aside>
 
       <main class="subject">
@@ -135,6 +108,77 @@
                       <p>Hieronder is de opbouw doormiddel van een grijze background</p>
                       <br/>
                       <p>Door over de mapjes heen te hoveren wordt de kleurcode zichtbaar</p>
+                    </div>
+                    <div class="code">
+                      <h2>Code uitleg:</h2>
+                      <br>
+                      <h3>Mapje svg:</h3>
+                      <pre>
+                        <br>
+                        <code>
+                          &lt;svg viewBox="0 0 388 268" fill="#B9005F" xmlns="http://www.w3.org/2000/svg"&gt;
+                          &lt;path
+                              d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+                            /&gt;
+                            &lt;/svg&gt;
+                        </code>
+                      </pre>
+                      <h3>Mapjes opbouw:</h3>
+
+                      <pre>
+                        <code>
+                          .grid-main-left {
+                            grid-area: grid-main-left;
+                            padding-left: 1rem;
+                          }
+
+                          .flex-main-left {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2rem;
+                            padding-top: 1rem;
+                          }
+
+                          .grid-main-right {
+                            grid-area: grid-main-right;
+                            margin: 0 auto;
+                          }
+                          
+                          .flex-main-right-background {
+                            background-color: var(--licht-grijs);
+                            border-radius: 0.6rem;
+                            padding: 1rem;
+                          }
+
+                          .footer {
+                            grid-area: footer;
+                            display: flex;
+                            margin: 0 auto;
+                            align-self: center;
+                            align-items: center;
+                            text-align: center;
+                          }
+                        </code>
+                      </pre>
+
+                      <h3>Kleur code achtergrond</h3>
+                      <code>
+                        <pre>
+                          #DDD;
+                        </pre>
+                      </code>
+
+                      <h3>Hover mapjes</h3>
+                      <pre>
+                        <code>
+                          .footer-background-hover:hover {
+                            background-color: var(--wit);
+                            border-radius: 0.6rem;
+                            padding: 2rem;
+                            transition: 1s ease;
+                          }
+                        </code>
+                      </pre>
                     </div>
               
                     <div class="grid-main-left">
@@ -233,8 +277,7 @@
                         </div>
                       </div>
                       <p>Hover over het mapje</p>
-                    </div>
-                  </div>
+            </div>
                 </article>
           </section>
       </main>

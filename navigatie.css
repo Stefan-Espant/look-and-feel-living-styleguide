@@ -36,11 +36,12 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
   grid-template-areas:
     "header header"
     "grid-main-left grid-main-right"
-    "footer footer";
+    "footer footer"
+    "code code";
 }
 
 .header {
@@ -165,4 +166,27 @@
 .grid-main-right svg,
 .footer svg {
   width: 5rem;
+}
+
+.code h2 {
+  color: #f4f3f3;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.code h3 {
+  color: var(--huisstijl);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.code {
+  grid-area: code;
+  background-color: #d3d3d3;
+  border-radius: 0.6rem;
+  overflow-x: scroll;
+}
+
+.code pre {
+  color: var(--huisstijl);
 }

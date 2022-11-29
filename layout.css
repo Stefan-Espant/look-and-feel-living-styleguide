@@ -203,11 +203,12 @@ aside a {
   width: 90vw;
   height: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   margin: 2.5em auto;
   flex-wrap: wrap;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .categorie {
@@ -802,7 +803,6 @@ article .guidelines {
   .folder {
     min-height: 25em;
   }
-
 }
 
 @media (min-width: 441px) and (max-width: 767px) {
@@ -965,19 +965,19 @@ article .guidelines {
   #desktop {
     display: none;
   }
-      footer div {
-        display: block;
-      }
-    
-      footer nav {
-        display: block;
-        width: auto;
-        margin: 1em;
-      }
-    
-      footer nav .footer-links {
-        display: block;
-      }
+  footer div {
+    display: block;
+  }
+
+  footer nav {
+    display: block;
+    width: auto;
+    margin: 1em;
+  }
+
+  footer nav .footer-links {
+    display: block;
+  }
 
   footer {
     display: inline-block;
@@ -1227,7 +1227,6 @@ article .guidelines {
     position: absolute;
     right: 1em;
   }
-
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
@@ -1433,5 +1432,4 @@ article .guidelines {
     right: 1em;
     height: 1em;
   }
-
 }
