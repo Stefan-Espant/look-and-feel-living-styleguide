@@ -1,0 +1,52 @@
+/* ROOT */
+:root {
+  --charcoal: #282a35;
+  --light-green: #d9eee1;
+ 
+  --light-rose: #f3ecea;
+  --light-blue: #96d4d4;
+
+  --magenta: #b9005f;
+
+  --black: #000;
+  --white: #fff;
+
+  --nav-color: #fff;
+  --header-color: #606EB3;
+  --body-color: #fadce8;
+}
+* {
+  margin: 100px;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+body {
+  background-color: var(--body-color);
+  display: grid-col 1fr, 1fr;
+}
+
+
+
+  .link {
+  color: var(--black);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hoverstate{
+  color: var(--magenta);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: var(--magenta);
+}
